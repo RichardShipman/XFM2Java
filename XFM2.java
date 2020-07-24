@@ -6,6 +6,10 @@
    Very little error checking or anything else going on here...
 
    Still need to find out how to bulk read and write to EEPROM.
+   
+   Uses jSerialComm from https://fazecast.github.io/jSerialComm/
+   Compile: javac -cp jSerialComm-2.6.2.jar XFM2.java
+   Run:     java -cp jSerialComm-2.6.2.jar:. XFM2
 
    Copyright © 2020 Richard Shipman 
    richard@shipman.me.uk
@@ -17,8 +21,6 @@ import com.fazecast.jSerialComm.*;
 import java.io.*;
 import java.util.Scanner;
 
-// javac -cp jSerialComm-2.6.2.jar XFM2.java
-// java -cp jSerialComm-2.6.2.jar:. XFM2
 
 
 
